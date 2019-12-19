@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Classes" representedClassName="Classes" syncable="YES">
+        <attribute name="studentNum" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="classStudent" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Students"/>
+    </entity>
+    <entity name="Profile" representedClassName="Profile" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="birthday" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="homephone" optional="YES" attributeType="String"/>
+        <attribute name="photo" optional="YES" attributeType="Binary"/>
+        <relationship name="studentProfile" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Students" inverseName="profile" inverseEntity="Students"/>
+    </entity>
+    <entity name="Students" representedClassName="Students" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="inClass" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Classes"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Profile" inverseName="studentProfile" inverseEntity="Profile"/>
+        <relationship name="subjects" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Subjects"/>
+    </entity>
+    <entity name="Subjects" representedClassName="Subjects" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="sid" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Students"/>
+    </entity>
+    <elements>
+        <element name="Profile" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="Classes" positionX="-54" positionY="-9" width="128" height="88"/>
+        <element name="Students" positionX="-36" positionY="9" width="128" height="118"/>
+        <element name="Subjects" positionX="-18" positionY="27" width="128" height="88"/>
+    </elements>
+</model>
