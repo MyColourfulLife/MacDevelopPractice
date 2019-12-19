@@ -20,6 +20,9 @@ extension Classes {
     @NSManaged public var studentNum: Int16
     @NSManaged public var title: String?
     @NSManaged public var classStudent: NSSet?
+    @NSManaged public var monitor: Classes?
+    @NSManaged public var teacher: Teacher?
+    @NSManaged public var classInfo: ClassInfo?
 
 }
 
@@ -38,5 +41,4 @@ extension Classes {
     @objc(removeClassStudent:)
     @NSManaged public func removeFromClassStudent(_ values: NSSet)
 
-    
 }

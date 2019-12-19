@@ -35,6 +35,12 @@ class ClassesManager: NSObject {
                 fatalError("Unresolved error \(error)")
             }
         })
+        
+//        let coordinator = container.persistentStoreCoordinator
+//        let filePath = Bundle.main.path(forResource: "ClassesManager", ofType: "momd")!
+//        let fileURL = URL(fileURLWithPath: filePath)
+//        try? coordinator.addPersistentStore(ofType: NSXMLStoreType, configurationName: nil, at: fileURL, options: [NSMigratePersistentStoresAutomaticallyOption:true,NSInferMappingModelAutomaticallyOption:false])
+        
         return container
     }()
 

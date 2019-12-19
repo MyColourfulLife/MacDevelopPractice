@@ -12,15 +12,20 @@
 		6A63E01823AB78D60050EA16 /* ClassesManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E01623AB78D60050EA16 /* ClassesManager.xcdatamodeld */; };
 		6A63E01A23AB78DB0050EA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A63E01923AB78DB0050EA16 /* Assets.xcassets */; };
 		6A63E01D23AB78DB0050EA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A63E01B23AB78DB0050EA16 /* Main.storyboard */; };
-		6A63E02D23AB79F00050EA16 /* Classes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E02523AB79F00050EA16 /* Classes+CoreDataClass.swift */; };
-		6A63E02E23AB79F00050EA16 /* Classes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E02623AB79F00050EA16 /* Classes+CoreDataProperties.swift */; };
-		6A63E02F23AB79F00050EA16 /* Subjects+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E02723AB79F00050EA16 /* Subjects+CoreDataClass.swift */; };
-		6A63E03023AB79F00050EA16 /* Subjects+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E02823AB79F00050EA16 /* Subjects+CoreDataProperties.swift */; };
-		6A63E03123AB79F00050EA16 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E02923AB79F00050EA16 /* Profile+CoreDataClass.swift */; };
-		6A63E03223AB79F00050EA16 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E02A23AB79F00050EA16 /* Profile+CoreDataProperties.swift */; };
-		6A63E03323AB79F00050EA16 /* Students+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E02B23AB79F00050EA16 /* Students+CoreDataClass.swift */; };
-		6A63E03423AB79F00050EA16 /* Students+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E02C23AB79F00050EA16 /* Students+CoreDataProperties.swift */; };
 		6A63E03623AB7A680050EA16 /* ClassesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E03523AB7A680050EA16 /* ClassesManager.swift */; };
+		6A63E04923AB9F3F0050EA16 /* Subjects+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E03D23AB9F3F0050EA16 /* Subjects+CoreDataClass.swift */; };
+		6A63E04A23AB9F3F0050EA16 /* Subjects+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E03E23AB9F3F0050EA16 /* Subjects+CoreDataProperties.swift */; };
+		6A63E04B23AB9F3F0050EA16 /* ClassInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E03F23AB9F3F0050EA16 /* ClassInfo+CoreDataClass.swift */; };
+		6A63E04C23AB9F3F0050EA16 /* ClassInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E04023AB9F3F0050EA16 /* ClassInfo+CoreDataProperties.swift */; };
+		6A63E04D23AB9F3F0050EA16 /* Classes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E04123AB9F3F0050EA16 /* Classes+CoreDataClass.swift */; };
+		6A63E04E23AB9F3F0050EA16 /* Classes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E04223AB9F3F0050EA16 /* Classes+CoreDataProperties.swift */; };
+		6A63E04F23AB9F3F0050EA16 /* Students+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E04323AB9F3F0050EA16 /* Students+CoreDataClass.swift */; };
+		6A63E05023AB9F3F0050EA16 /* Students+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E04423AB9F3F0050EA16 /* Students+CoreDataProperties.swift */; };
+		6A63E05123AB9F3F0050EA16 /* Teacher+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E04523AB9F3F0050EA16 /* Teacher+CoreDataClass.swift */; };
+		6A63E05223AB9F3F0050EA16 /* Teacher+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E04623AB9F3F0050EA16 /* Teacher+CoreDataProperties.swift */; };
+		6A63E05323AB9F3F0050EA16 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E04723AB9F3F0050EA16 /* Profile+CoreDataClass.swift */; };
+		6A63E05423AB9F3F0050EA16 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E04823AB9F3F0050EA16 /* Profile+CoreDataProperties.swift */; };
+		6A63E05623AB9FA80050EA16 /* SchoolV2_V3.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6A63E05523AB9FA80050EA16 /* SchoolV2_V3.xcmappingmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,15 +37,22 @@
 		6A63E01C23AB78DB0050EA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A63E01E23AB78DB0050EA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A63E01F23AB78DB0050EA16 /* ClassesManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClassesManager.entitlements; sourceTree = "<group>"; };
-		6A63E02523AB79F00050EA16 /* Classes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classes+CoreDataClass.swift"; sourceTree = "<group>"; };
-		6A63E02623AB79F00050EA16 /* Classes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classes+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		6A63E02723AB79F00050EA16 /* Subjects+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subjects+CoreDataClass.swift"; sourceTree = "<group>"; };
-		6A63E02823AB79F00050EA16 /* Subjects+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subjects+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		6A63E02923AB79F00050EA16 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
-		6A63E02A23AB79F00050EA16 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		6A63E02B23AB79F00050EA16 /* Students+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Students+CoreDataClass.swift"; sourceTree = "<group>"; };
-		6A63E02C23AB79F00050EA16 /* Students+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Students+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		6A63E03523AB7A680050EA16 /* ClassesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesManager.swift; sourceTree = "<group>"; };
+		6A63E03723AB84930050EA16 /* SchoolV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolV2.xcdatamodel; sourceTree = "<group>"; };
+		6A63E03C23AB9D440050EA16 /* SchoolV 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SchoolV 3.xcdatamodel"; sourceTree = "<group>"; };
+		6A63E03D23AB9F3F0050EA16 /* Subjects+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Subjects+CoreDataClass.swift"; path = "ClassesManager/Subjects+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6A63E03E23AB9F3F0050EA16 /* Subjects+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Subjects+CoreDataProperties.swift"; path = "ClassesManager/Subjects+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6A63E03F23AB9F3F0050EA16 /* ClassInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ClassInfo+CoreDataClass.swift"; path = "ClassesManager/ClassInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6A63E04023AB9F3F0050EA16 /* ClassInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ClassInfo+CoreDataProperties.swift"; path = "ClassesManager/ClassInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6A63E04123AB9F3F0050EA16 /* Classes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Classes+CoreDataClass.swift"; path = "ClassesManager/Classes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6A63E04223AB9F3F0050EA16 /* Classes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Classes+CoreDataProperties.swift"; path = "ClassesManager/Classes+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6A63E04323AB9F3F0050EA16 /* Students+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Students+CoreDataClass.swift"; path = "ClassesManager/Students+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6A63E04423AB9F3F0050EA16 /* Students+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Students+CoreDataProperties.swift"; path = "ClassesManager/Students+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6A63E04523AB9F3F0050EA16 /* Teacher+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Teacher+CoreDataClass.swift"; path = "ClassesManager/Teacher+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6A63E04623AB9F3F0050EA16 /* Teacher+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Teacher+CoreDataProperties.swift"; path = "ClassesManager/Teacher+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6A63E04723AB9F3F0050EA16 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Profile+CoreDataClass.swift"; path = "ClassesManager/Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6A63E04823AB9F3F0050EA16 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Profile+CoreDataProperties.swift"; path = "ClassesManager/Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6A63E05523AB9FA80050EA16 /* SchoolV2_V3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; name = SchoolV2_V3.xcmappingmodel; path = ClassesManager/SchoolV2_V3.xcmappingmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +69,19 @@
 		6A63E00623AB78D60050EA16 = {
 			isa = PBXGroup;
 			children = (
-				6A63E02523AB79F00050EA16 /* Classes+CoreDataClass.swift */,
-				6A63E02623AB79F00050EA16 /* Classes+CoreDataProperties.swift */,
-				6A63E02723AB79F00050EA16 /* Subjects+CoreDataClass.swift */,
-				6A63E02823AB79F00050EA16 /* Subjects+CoreDataProperties.swift */,
-				6A63E02923AB79F00050EA16 /* Profile+CoreDataClass.swift */,
-				6A63E02A23AB79F00050EA16 /* Profile+CoreDataProperties.swift */,
-				6A63E02B23AB79F00050EA16 /* Students+CoreDataClass.swift */,
-				6A63E02C23AB79F00050EA16 /* Students+CoreDataProperties.swift */,
+				6A63E03D23AB9F3F0050EA16 /* Subjects+CoreDataClass.swift */,
+				6A63E03E23AB9F3F0050EA16 /* Subjects+CoreDataProperties.swift */,
+				6A63E03F23AB9F3F0050EA16 /* ClassInfo+CoreDataClass.swift */,
+				6A63E04023AB9F3F0050EA16 /* ClassInfo+CoreDataProperties.swift */,
+				6A63E04123AB9F3F0050EA16 /* Classes+CoreDataClass.swift */,
+				6A63E04223AB9F3F0050EA16 /* Classes+CoreDataProperties.swift */,
+				6A63E04323AB9F3F0050EA16 /* Students+CoreDataClass.swift */,
+				6A63E04423AB9F3F0050EA16 /* Students+CoreDataProperties.swift */,
+				6A63E04523AB9F3F0050EA16 /* Teacher+CoreDataClass.swift */,
+				6A63E04623AB9F3F0050EA16 /* Teacher+CoreDataProperties.swift */,
+				6A63E04723AB9F3F0050EA16 /* Profile+CoreDataClass.swift */,
+				6A63E04823AB9F3F0050EA16 /* Profile+CoreDataProperties.swift */,
+				6A63E05523AB9FA80050EA16 /* SchoolV2_V3.xcmappingmodel */,
 				6A63E01123AB78D60050EA16 /* ClassesManager */,
 				6A63E01023AB78D60050EA16 /* Products */,
 			);
@@ -163,18 +180,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A63E02F23AB79F00050EA16 /* Subjects+CoreDataClass.swift in Sources */,
-				6A63E03423AB79F00050EA16 /* Students+CoreDataProperties.swift in Sources */,
-				6A63E03023AB79F00050EA16 /* Subjects+CoreDataProperties.swift in Sources */,
-				6A63E02D23AB79F00050EA16 /* Classes+CoreDataClass.swift in Sources */,
+				6A63E04A23AB9F3F0050EA16 /* Subjects+CoreDataProperties.swift in Sources */,
+				6A63E05323AB9F3F0050EA16 /* Profile+CoreDataClass.swift in Sources */,
+				6A63E04923AB9F3F0050EA16 /* Subjects+CoreDataClass.swift in Sources */,
+				6A63E04C23AB9F3F0050EA16 /* ClassInfo+CoreDataProperties.swift in Sources */,
+				6A63E05023AB9F3F0050EA16 /* Students+CoreDataProperties.swift in Sources */,
+				6A63E04D23AB9F3F0050EA16 /* Classes+CoreDataClass.swift in Sources */,
 				6A63E03623AB7A680050EA16 /* ClassesManager.swift in Sources */,
-				6A63E03123AB79F00050EA16 /* Profile+CoreDataClass.swift in Sources */,
-				6A63E02E23AB79F00050EA16 /* Classes+CoreDataProperties.swift in Sources */,
+				6A63E05623AB9FA80050EA16 /* SchoolV2_V3.xcmappingmodel in Sources */,
+				6A63E05123AB9F3F0050EA16 /* Teacher+CoreDataClass.swift in Sources */,
 				6A63E01823AB78D60050EA16 /* ClassesManager.xcdatamodeld in Sources */,
+				6A63E05223AB9F3F0050EA16 /* Teacher+CoreDataProperties.swift in Sources */,
+				6A63E04E23AB9F3F0050EA16 /* Classes+CoreDataProperties.swift in Sources */,
 				6A63E01523AB78D60050EA16 /* ViewController.swift in Sources */,
-				6A63E03323AB79F00050EA16 /* Students+CoreDataClass.swift in Sources */,
-				6A63E03223AB79F00050EA16 /* Profile+CoreDataProperties.swift in Sources */,
 				6A63E01323AB78D60050EA16 /* AppDelegate.swift in Sources */,
+				6A63E04F23AB9F3F0050EA16 /* Students+CoreDataClass.swift in Sources */,
+				6A63E05423AB9F3F0050EA16 /* Profile+CoreDataProperties.swift in Sources */,
+				6A63E04B23AB9F3F0050EA16 /* ClassInfo+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,9 +390,11 @@
 		6A63E01623AB78D60050EA16 /* ClassesManager.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				6A63E03C23AB9D440050EA16 /* SchoolV 3.xcdatamodel */,
+				6A63E03723AB84930050EA16 /* SchoolV2.xcdatamodel */,
 				6A63E01723AB78D60050EA16 /* ClassesManager.xcdatamodel */,
 			);
-			currentVersion = 6A63E01723AB78D60050EA16 /* ClassesManager.xcdatamodel */;
+			currentVersion = 6A63E03C23AB9D440050EA16 /* SchoolV 3.xcdatamodel */;
 			path = ClassesManager.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
