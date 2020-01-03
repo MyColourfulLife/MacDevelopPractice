@@ -1,0 +1,11 @@
+framework module Easy {
+  umbrella header "Easy.h"
+
+  export *
+  module * { export * }
+}
+
+module Easy.Swift {
+    header "Easy-Swift.h"
+    requires objc
+}
